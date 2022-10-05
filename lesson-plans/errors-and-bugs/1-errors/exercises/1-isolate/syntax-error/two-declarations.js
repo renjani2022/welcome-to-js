@@ -3,20 +3,23 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment:Microsoft Edge
 
-  name:
-  message:
+  name:SyntaxError
+  message: Identifier 'tree' has already been declared
 
-  location:
+  location: line 23
 
-  life cycle:
+  life cycle: Creation phase
 
-  the mistake:
+  the mistake: repeating the declare/init (let) for the same variable
 
-  the fix(es):
+  the fix(es): delete the 2nd let 
+
 */
 
 let tree = 'oak';
 
-let tree = 'birch';
+tree = 'birch';
+
+console.log(tree)

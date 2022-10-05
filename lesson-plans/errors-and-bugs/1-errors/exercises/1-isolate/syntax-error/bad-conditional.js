@@ -6,25 +6,25 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment: microsoft edge 
 
-  name:
-  message:
+  name: SyntaxError
+  message: Unexpected token 
 
-  location:
+  location: line 27, column 29
 
-  life cycle:
+  life cycle: Creation phase
 
-  the mistake:
+  the mistake: token is wrong (doubled else))
 
-  the fix(es):
+  the fix(es): using else if 
 */
 
 let userName = 'indrogo';
 
 if (userName.length < 3) {
   console.log('too short');
-} else (userName.length < 5) {
+} else if (userName.length < 5) {
   console.log('just right');
 } else {
   console.log('too long');

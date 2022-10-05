@@ -7,21 +7,26 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+environment:Microsoft Edge
 
-  name:
-  message:
+  name:SyntaxError
+  message: Unexpected number
 
-  location:
+  location: line 25
 
-  life cycle:
+  life cycle: Creation phase
 
-  the mistake:
+  the mistake: can not use the number only for variable
 
-  the fix(es):
+  the fix(es): change the number to character or add a word/alphabet before number
 */
 
 
-const 3 = 'three';
+const p3 = 'three';
+console.log(p3)
+
+const three = 'three';
+console.log(p3)
+
 
 

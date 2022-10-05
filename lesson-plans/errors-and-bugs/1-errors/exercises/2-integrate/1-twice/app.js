@@ -6,16 +6,16 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment: Microsoft Edge
 
-  name:
-  message:
+  name: SyntaxError
+  message: Cannot use import statement outside a module
 
-  location:
+  location: line 2
 
-  life cycle:
+  life cycle: creation phase 
 
-  the mistake:
+  the mistake: 
 
   the fix(es):
 */

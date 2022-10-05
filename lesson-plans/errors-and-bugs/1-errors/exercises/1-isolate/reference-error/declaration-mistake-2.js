@@ -3,28 +3,29 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment: microsof edge
 
-  name:
-  message:
+  name: Cannot access 'isValidUserName'
+  message: Cannot access 'isValidUserName'
 
-  location:
+  location: line 24, column 19
 
-  life cycle:
+  life cycle: in execution phase
 
-  the mistake:
+  the mistake: isValidUserName is not yet declared and initialized 
 
-  the fix(es):
+  the fix(es): doing initialization before assigning   
 */
 
 const userName = 'chiobin';
 console.log('userName:', typeof userName, userName);
 
+let isValidUserName;
+
+
 if (userName.length > 3) {
   isValidUserName = true;
 }
-
-let isValidUserName;
 
 if (userName.length <= 3) {
   isValidUserName = false;

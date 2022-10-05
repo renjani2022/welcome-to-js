@@ -1,7 +1,7 @@
 .computery {
   font-family: monospace;
-  color: chartreuse;
-  background-color: black;
-  height: 2em;
+  color: rgb(238, 246, 246);
+  background-color: rgb(235, 18, 119);
+  height: 3em;
   width: 30em;
 }

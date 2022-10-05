@@ -6,21 +6,21 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment:Microsoft Edge
 
-  name:
-  message:
+  name:SyntaxError
+  message: Invalid or unexpected token
 
-  location:
+  location: line 23
 
-  life cycle:
+  life cycle: Creation phase
 
-  the mistake:
+  the mistake: there is no code to break into two lines 
 
-  the fix(es):
+  the fix(es): fixing the string with the breaking line code
 */
 
-const a = 'this is
-two lines';
+const a = 'this is \n' +
+'two lines';
 
-
+console.log(a);

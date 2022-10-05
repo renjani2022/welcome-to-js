@@ -6,20 +6,23 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment:Microsoft Edge
 
-  name:
-  message:
+  name:SyntaxError
+  message: Unexpected string
 
-  location:
+  location: line 34
 
-  life cycle:
+  life cycle: Creation phase
 
-  the mistake:
+  the mistake: the string without using adding code (+)
 
-  the fix(es):
+  the fix(es): put the (+) in string 
+  
 */
 
-const quotesInQuotes = 'remind yourself ''i can do this!'' at least once a day';
+const quotesInQuotes = 'remind yourself '  + '"I can do this!"' + ' at least once a day';
+
+console.log(quotesInQuotes)
 
 

@@ -6,22 +6,25 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment: microsoft edge
 
-  name:
-  message:
+  name: SyntaxError
+  message: Invalid left-hand side in assignment
 
-  location:
+  location: line 26
 
-  life cycle:
+  life cycle: in creation phase 
 
-  the mistake:
+  the mistake: the value must be on the right-side after the variable  
 
-  the fix(es):
+  the fix(es): replace "true" after "isHappy"
 */
+
 
 let isHappy = false;
 
-true = isHappy;
+isHappy = true;
+
+console.log(isHappy)
 
 
